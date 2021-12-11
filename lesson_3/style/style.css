@@ -1,0 +1,85 @@
+body{
+    font-family: 'Open Sans', sans-serif; 
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 53px auto;
+}
+
+.header-li{
+    display: inline-block;
+    margin-right: 47px;
+}
+
+.header-li > a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;  
+}
+
+.header-ul{
+    text-align: center;
+}
+
+.section-bg{
+    background-image: url('../img/pexels-harrison-candlin-2441454\ 1.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 138px;
+
+}
+
+.bg-text{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+
+
+}
+
+.button-buy{
+    align-items: center;
+    margin-left: 440px;
+    width: 420px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #162C38;
+    margin-bottom: 180px;
+}
+
+
+.section-text{
+    background-color: rgba(26, 110, 136, 0.71);
+   
+}
+
+.text-block{
+   width: 726px;
+   height: 265px; 
+   align-items: center;
+   padding: 133px 300px;
+}
+
+.text{
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
