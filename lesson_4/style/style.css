@@ -1,0 +1,211 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.header{
+    margin: 53px auto;
+}
+
+.header-li{
+    display: inline-block;
+    margin-right: 47px;
+}
+
+.header-li > a{
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    text-decoration: none;
+    color: #000000;  
+}
+
+.header-ul{
+    text-align: center;
+}
+
+.section-bg{
+    background-image: url('../img/pexels-harrison-candlin-2441454\ 1.png');
+    background-position: center;
+    background-size: cover;
+    padding-top: 138px;
+
+}
+
+.bg-text{
+    font-weight: bold;
+    font-size: 72px;
+    line-height: 98px;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+
+
+}
+
+.button-buy{
+    align-items: center;
+    margin-left: 440px;
+    width: 420px;
+    height: 70px;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #162C38;
+    margin-bottom: 180px;
+}
+
+
+.section-text{
+    background-color: rgba(26, 110, 136, 0.71);
+    
+    
+   
+}
+
+.text-block{
+   width: 726px;
+   height: 265px; 
+   align-items: center;
+   padding: 133px 300px;
+}
+
+.text{
+    font-size: 36px;
+    line-height: 49px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.box{
+    width: 178px;
+    height: 121px;
+    background-color: rgba(191, 222, 251, 1);
+}
+
+.position-text1{
+    padding-top: 221px;
+}
+
+.text1{
+    width: 696px;
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000;
+}
+
+.section-form{
+    position: relative;
+}
+
+.box-one{
+    position: absolute;
+    top: 100px;
+    left: -70px;
+}
+
+.box-two{
+    position: absolute;
+    top: 346px;
+    left: -70px;
+}
+
+.box-three{
+    position: absolute;
+    right: -70px;
+    top: 241px;
+}
+
+.text2{
+    padding-top: 203px;
+    width: 696px;  
+    margin: 0 auto;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #000000; 
+    position: relative;
+    padding-bottom: 136px;
+}
+
+.text2::before{
+    content: " ";
+    position: absolute;
+    left: -25px;
+    top: 155px;
+    background-color: rgba(92, 152, 171, 1);
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+
+.text2::after{
+    content: " ";
+    position: absolute;
+    right: -152px;
+    bottom: 70px;
+    background-color: rgba(191, 222, 251, 1);
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.form{
+    max-width: 647px;
+    margin: 0 auto;
+
+}
+
+.input-holder, .input{
+    width: 100%;
+}
+
+.input-holder{
+    margin-bottom: 41px;
+    position: relative;
+    
+}
+
+.input{
+    border: 1px solid #000000;
+    border-radius: 4px;
+    padding: 36px 0 11px 34px;
+    font-size: 36px;
+    line-height: 49px;
+    box-sizing: border-box;
+}
+
+
+.input::placeholder{
+    color: #000000;
+}
+
+.label{
+    position: absolute;
+    top: 14px;
+    left: 31px;
+}
+
+.button{
+    background-color:rgba(92, 152, 171, 1);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: none;
+    font-size: 36px;
+    line-height: 49px;
+    width: 100%;
+    padding: 21px 0;
+    margin-bottom: 50px;
+
+}
