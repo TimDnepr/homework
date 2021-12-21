@@ -129,8 +129,146 @@ body{
     
 }
 
+/* ---------SECTION-ENGAGE----------- */
+
+.section-engage{
+    padding: 110px 0;
+    background:  rgba(0, 161, 198, 0.07);
+    
+}
+
+.text-engage{
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+}
+
+.section-engage> .container > div > h2{
+    width: 555px;
+    margin: 24px auto;
+}
+
+.text-small{
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;  
+}
+
+.section-engage> .container > div > .text-small{
+    width: 555px;
+    margin: 0 auto;
+
+}
+
+.button-get{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 111px;
+    
+}
+
+.button-get> div:nth-child(2){
+    margin-left: 10px;
+  
+}
+
+
+.grid-devolp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    
+}
+
+.grid-devolp> div{
+    margin: 0 auto;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 262px;
+    height: 300px;
+    padding: 22px 60px;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+
+.grid-devolp > div:nth-child(4) {
+    padding: 22px 72px;
+}
+
+.grid-devolp> div> p{
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 22px;
+}
+
+.grid-devolp :hover{
+    background: rgba(49, 65, 197, 1);
+    color: white;
+    transition: 1000ms;
+
+}
 
 
 
+/* ---------SECTION-ENGAGE----------- */
 
+/* -------SECTION-WRAP----------- */
+.section-wrap{
+    padding: 90px 0;
+}
+
+.img-wrapper{
+    margin-top: 96px;
+    display: grid;
+    row-gap: 40px;
+    column-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.img-wrapper > div:nth-child(3), div:nth-child(4){
+    grid-row: span 2;
+
+}
+
+.img-wrapper > div >img{
+    height: 100%;
+    width: 100%;
+}
+
+.h2-section-wrap{
+   
+    text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 66px;
+    color: #000000;
+
+}
+
+.p-text{
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #172342;
+    width: 554px;
+    margin: 26px auto;
+}
+
+/* -------SECTION-WRAP----------- */
 
