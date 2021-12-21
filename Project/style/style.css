@@ -1,0 +1,274 @@
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.header{
+    background-color: #F3C6BD;
+    padding: 30px 0;
+    
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo > div:first-child{
+    margin-right: 15px;
+}
+
+.logo-bold{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    color: #2B292D;
+}
+
+.logo-regular{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: rgba(43, 41, 45, 0.6);
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+}
+
+.header-li{
+    display: inline-block;
+}
+
+.header-li:not(:last-child){
+    margin-right: 20px;
+}
+
+.header-li > a{
+    font-size: 18px;
+    line-height: 25px;
+    color: #2B292D;
+    text-decoration: none;
+}
+
+.header-li > a:hover{
+    font-weight: bold;
+}
+
+.header-nav >div{
+    margin-left: 75px;
+}
+
+.button{
+    border: none;
+    font-size: 18px;
+    line-height: 13px;
+    color: #FFFFFF;
+    background-color: rgba(48, 64, 196, 1);
+    padding: 17px 28px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.button:hover{
+    color: rgba(48, 64, 196, 1);
+    background-color:rgba(255, 255, 255, 1) ;
+    transition: 1s;
+}
+
+.section-what {
+    background-color: #F4F5F7;
+}
+
+.what-container{
+    display: flex;
+    padding: 77px 130px;
+}
+
+.what{
+    width: 555px;
+}
+
+.what-container >.what:last-child{
+    margin-left: 30px;
+}
+
+.text-h3{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 32px;
+    color: #2B292D;
+}
+
+.text-p{
+    font-size: 22px;
+    line-height: 32px;
+    color: #2B292D; 
+}
+
+
+.section-logo{
+    padding: 30px 0;
+}
+
+.logotype{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* ---------SECTION-ENGAGE----------- */
+
+.section-engage{
+    padding: 110px 0;
+    background:  rgba(0, 161, 198, 0.07);
+    
+}
+
+.text-engage{
+    text-align: center;
+    font-size: 22px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 56px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #2B292D;
+}
+
+.section-engage> .container > div > h2{
+    width: 555px;
+    margin: 24px auto;
+}
+
+.text-small{
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #2B292D;  
+}
+
+.section-engage> .container > div > .text-small{
+    width: 555px;
+    margin: 0 auto;
+
+}
+
+.button-get{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 111px;
+    
+}
+
+.button-get> div:nth-child(2){
+    margin-left: 10px;
+  
+}
+
+
+.grid-devolp{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    
+}
+
+.grid-devolp> div{
+    margin: 0 auto;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+    width: 262px;
+    height: 300px;
+    padding: 22px 60px;
+    cursor: pointer;
+    box-sizing: border-box;
+    
+}
+
+.grid-devolp > div:nth-child(4) {
+    padding: 22px 72px;
+}
+
+.grid-devolp> div> p{
+    text-align: center;
+    font-size: 22px;
+    line-height: 28px;
+    margin-top: 22px;
+}
+
+.grid-devolp :hover{
+    background: rgba(49, 65, 197, 1);
+    color: white;
+    transition: 1000ms;
+
+}
+
+
+
+/* ---------SECTION-ENGAGE----------- */
+
+/* -------SECTION-WRAP----------- */
+.section-wrap{
+    padding: 90px 0;
+}
+
+.img-wrapper{
+    margin-top: 96px;
+    display: grid;
+    row-gap: 40px;
+    column-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.img-wrapper > div:nth-child(3), div:nth-child(4){
+    grid-row: span 2;
+
+}
+
+.img-wrapper > div >img{
+    height: 100%;
+    width: 100%;
+}
+
+.h2-section-wrap{
+   
+    text-align: center;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 66px;
+    color: #000000;
+
+}
+
+.p-text{
+    font-size: 24px;
+    line-height: 34px;
+    text-align: center;
+    color: #172342;
+    width: 554px;
+    margin: 26px auto;
+}
+
+/* -------SECTION-WRAP----------- */
+
