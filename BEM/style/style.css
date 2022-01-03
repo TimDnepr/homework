@@ -1,0 +1,130 @@
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container__header, .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container__header{
+    margin: 35px auto;
+}
+
+.nav__li{
+    display: inline-block;
+}
+
+.nav__link{
+    margin-right: 35px;
+    font-size: 16px;
+    line-height: 19px;
+    color: #B8BECD;
+    text-decoration: none;
+}
+
+.nav__link-active{
+    color: black;
+}
+
+.button-container__button{
+    width: 132px;
+    height: 44px;
+    border-radius: 8px;
+    border: 1px solid #FB8F1D;
+    box-sizing: border-box;
+    background: #FB8F1D;
+    color: white;
+
+}
+
+.button-container__button-transparant{
+    background: white;
+    color: #FB8F1D;
+}
+
+.main__section{
+    display: flex;
+    justify-content: space-between;
+}
+
+.title__h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+    color: #000000;
+    width: 245px;
+}
+
+.main__section-line{
+    width: 92px;
+    height: 5px;
+    background: #0F0B0B;
+    border-radius: 5px;
+    margin: 16px 0 52px;
+}
+
+
+.main__section-image{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.form__button-submit{
+    width: 158px;
+    height: 59px;
+    background: #1ABE84;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.form__input{
+    width: 412px;
+    height: 59px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px  30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.form__input::placeholder{
+    color: black;
+}
+
+form> div:nth-child(2){
+    margin: 25px 0;
+}
+
+
+.main__section-image> .image__content:first-of-type{
+    margin-right: 55px;
+}
+
+.image__content{
+    position: relative;
+}
+
+.image-text{
+    position: absolute;
+    width: 124px;
+    height: 23px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #000000;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px 14px;
+    bottom: 2px;
+    
+}
+
+
